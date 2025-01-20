@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureGroup>
+  <texture scale="1" mipsToGenerate="0" texwidth="128" texheight="512">default_0.bz2</texture>
+  <tpe x="0" y="2" tpage="default_0.bz2">spr_paper_RockPaperScissors_a51c574d-57ae-49ef-b038-88a0633f3a9b.tpe</tpe>
+  <tpe x="0" y="134" tpage="default_0.bz2">spr_rock_RockPaperScissors_4551dd1e-c997-4c52-bd01-19e8e8bd8446.tpe</tpe>
+  <tpe x="0" y="266" tpage="default_0.bz2">spr_scissors_RockPaperScissors_cf81e723-ab88-49e7-a450-9f4bfe03d667.tpe</tpe>
+</TextureGroup>
