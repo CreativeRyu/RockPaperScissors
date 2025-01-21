@@ -8,3 +8,5 @@ fade_alpha = 1;
 fade_speed = 0.016;
 
 global.game_state = 0;
+global.result = "";
+randomize()

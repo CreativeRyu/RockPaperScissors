@@ -24,8 +24,11 @@ switch(room) {
 		
 		break;
 	case rm_game:	
+		var result_width = string_width(global.result)
+		draw_text(room_width/2- result_width / 2, 155, global.result)
+	
 		if global.game_state == 5 {
-		
+			
 		var restart_width = string_width(">>Restart<<")
 		draw_text_transformed_color(room_width/2 - restart_width * 1.1 / 2, 300, ">>Restart<<", 1.1, 1.1, 0,c_white, c_aqua, c_aqua,c_white, fade_alpha)
 		}

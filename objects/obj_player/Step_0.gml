@@ -1,7 +1,7 @@
 /// @description Step Event
 // switch between player handsigns
 
-switch (global.game_state) {
+switch (global.player_state) {
     case 0:
         sprite_index = hand_signs[0];
         break;
@@ -12,5 +12,3 @@ switch (global.game_state) {
         sprite_index = hand_signs[2];
         break;
 }
-
-show_debug_message(global.game_state)

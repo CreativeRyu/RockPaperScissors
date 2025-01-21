@@ -4,5 +4,5 @@
 event_inherited();
 
 activate_button = function() {
-    global.game_state = 2
+    global.player_state = 2
 }
