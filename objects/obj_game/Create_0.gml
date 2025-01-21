@@ -1,5 +1,6 @@
 /// @description Create Event
 // Start Variables
+draw_set_font(title_font);
 title_text = "ROCK PAPER SCISSORS";
 title_width = string_width(title_text);
 

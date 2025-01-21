@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"get_text_color",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"get_text_color",
+  "parent":{
+    "name":"Skripte",
+    "path":"folders/Skripte.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

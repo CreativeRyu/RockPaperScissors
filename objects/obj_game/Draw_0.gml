@@ -1,9 +1,6 @@
 /// @description Draw Event
 // Display Game Text
 
-/// @description Hier Beschreibung einfügen
-draw_text_transformed(room_width/2 - title_width * 1.5 / 2, 32, title_text, 1.5, 1.5, 0)
-
 if (fade_in) {
 fade_alpha -= fade_speed; // Fade in
 if (fade_alpha <= 0.2) {
@@ -20,12 +17,17 @@ if (fade_alpha >= 1) {
 
 switch(room) {
 	case rm_start:
-		draw_text_transformed_color(room_width/2 - 100, 155, ">>Click Here<<", 1.5, 1.5, 0,c_white, c_aqua, c_aqua,c_white, fade_alpha)
+		
+		draw_text_transformed_color(room_width/2 - title_width * 1.6 / 2, 120, title_text, 1.6, 1.6, 0, c_red, c_orange, c_orange, c_orange, 1)
+		draw_text_transformed_color(room_width/2 - 100, 220, ">>Click Here<<", 1.5, 1.5, 0,c_white, c_aqua, c_aqua,c_white, fade_alpha)
+		draw_text(460, room_height-45, "Version: 0.0.2")
 		
 		break;
-	case rm_game:	
-		var result_width = string_width(global.result)
-		draw_text(room_width/2- result_width / 2, 155, global.result)
+	case rm_game:
+		draw_set_font(result_font);
+		var text_color = get_text_color(global.result);
+		var result_width = string_width(global.result);
+		draw_text_color(room_width/2- result_width / 2, 155, global.result, text_color, text_color, text_color, text_color, 1)
 	
 		if global.game_state == 5 {
 			
