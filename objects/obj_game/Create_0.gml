@@ -10,4 +10,7 @@ fade_speed = 0.016;
 
 global.game_state = 0;
 global.result = "";
+global.player_scores = [];
+global.enemy_scores = [];
+
 randomize()

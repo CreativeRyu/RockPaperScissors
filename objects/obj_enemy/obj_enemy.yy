@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_rock",
-    "path":"sprites/spr_rock/spr_rock.yy",
+    "name":"spr_scissors",
+    "path":"sprites/spr_scissors/spr_scissors.yy",
   },
   "spriteMaskId":null,
   "visible":true,

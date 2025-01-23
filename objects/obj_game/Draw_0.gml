@@ -28,6 +28,22 @@ switch(room) {
 		var text_color = get_text_color(global.result);
 		var result_width = string_width(global.result);
 		draw_text_color(room_width/2- result_width / 2, 155, global.result, text_color, text_color, text_color, text_color, 1)
+		
+		global.player_x_cor = 112
+		global.enemy_x_cor = 432
+		
+		array_foreach(global.player_scores, function(single_score) {
+			draw_sprite(spr_score, single_score, global.player_x_cor , 235);
+			global.player_x_cor += 38;
+		});
+		
+		array_foreach(global.enemy_scores, function(single_score) {
+			draw_sprite(spr_score, single_score, global.enemy_x_cor , 235);
+			global.enemy_x_cor += 38;
+		});
+		
+		
+		//draw_sprite(spr_score, 0, enemy_x_cor , 235);
 	
 		if global.game_state == 5 {
 			

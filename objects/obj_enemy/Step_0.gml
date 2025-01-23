@@ -10,4 +10,17 @@ switch (global.enemy_state) {
     case 2:
         sprite_index = hand_signs[2];
         break;
+	case 3:
+		sprite_index = hand_signs[3];
+        break;
 }
+
+if (state_timer > 0){
+	state_timer--;
+}
+else{
+	state_timer = 0;
+	global.enemy_state = 3;
+}
+
+show_debug_message(string(state_timer));
