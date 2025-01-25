@@ -12,5 +12,8 @@ global.game_state = 0;
 global.result = "";
 global.player_scores = [];
 global.enemy_scores = [];
+round_result = noone;
+
+change_room_timer = noone;
 
 randomize()

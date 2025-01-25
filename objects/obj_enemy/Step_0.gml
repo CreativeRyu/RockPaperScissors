@@ -22,5 +22,3 @@ else{
 	state_timer = 0;
 	global.enemy_state = 3;
 }
-
-show_debug_message(string(state_timer));
