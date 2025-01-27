@@ -13,8 +13,8 @@
     "path":"folders/Objekte/Buttons.yy",
   },
   "parentObjectId":{
-    "name":"tap_btn_parent",
-    "path":"objects/tap_btn_parent/tap_btn_parent.yy",
+    "name":"btn_gui_tap_parent",
+    "path":"objects/btn_gui_tap_parent/btn_gui_tap_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

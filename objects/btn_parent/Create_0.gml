@@ -1,4 +1,5 @@
 /// @description Button Parent
+
 blend_timer = 0;
 _active_timer = 30;
 interact = function() {

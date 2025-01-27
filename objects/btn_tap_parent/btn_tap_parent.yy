@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"btn_scissors",
+  "%Name":"btn_tap_parent",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"btn_scissors",
+  "name":"btn_tap_parent",
   "overriddenProperties":[],
   "parent":{
     "name":"Buttons",
     "path":"folders/Objekte/Buttons.yy",
   },
   "parentObjectId":{
-    "name":"btn_gui_tap_parent",
-    "path":"objects/btn_gui_tap_parent/btn_gui_tap_parent.yy",
+    "name":"btn_parent",
+    "path":"objects/btn_parent/btn_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_scissors",
-    "path":"sprites/spr_scissors/spr_scissors.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

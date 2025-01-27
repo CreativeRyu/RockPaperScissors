@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"tap_btn_parent",
+  "%Name":"btn_gui_tap_parent",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"tap_btn_parent",
+  "name":"btn_gui_tap_parent",
   "overriddenProperties":[],
   "parent":{
     "name":"Buttons",
     "path":"folders/Objekte/Buttons.yy",
   },
   "parentObjectId":{
-    "name":"btn_parent",
-    "path":"objects/btn_parent/btn_parent.yy",
+    "name":"btn_gui_parent",
+    "path":"objects/btn_gui_parent/btn_gui_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
