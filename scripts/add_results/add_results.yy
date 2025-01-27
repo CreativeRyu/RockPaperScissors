@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"add_results",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"add_results",
+  "parent":{
+    "name":"Skripte",
+    "path":"folders/Skripte.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

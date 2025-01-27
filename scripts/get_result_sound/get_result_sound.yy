@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"get_result_sound",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"get_result_sound",
+  "parent":{
+    "name":"Skripte",
+    "path":"folders/Skripte.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,4 +1,4 @@
-/// @description Changing Rooms
+/// @description Changing Rooms and Game States
 if(room == rm_start) {
 	if mouse_check_button_pressed(mb_left) {
 		room_goto(rm_game)
